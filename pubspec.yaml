@@ -68,6 +68,7 @@ flutter:
     - assets/images/fashion/
     - assets/images/
     - assets/images/project5/
+    - assets/images/project6/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
