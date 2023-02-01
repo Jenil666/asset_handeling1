@@ -5,7 +5,7 @@ import 'package:asset_handeling/Pgotos/photo3.dart';
 import 'package:asset_handeling/Pgotos/photo4.dart';
 import 'package:asset_handeling/Pgotos/photo5A.dart';
 import 'package:asset_handeling/Pgotos/photo6.dart';
-import 'package:asset_handeling/Pgotos/photp5B.dart';
+import 'package:asset_handeling/Pgotos/photo5B.dart';
 import 'package:asset_handeling/Pgotos/project7.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +17,7 @@ void main()
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: 'ph6=7',
+      initialRoute: 'ph7',
       routes: {
         '/':(context)=>Ceolist(),
         'aps1':(context)=>Project2(),
