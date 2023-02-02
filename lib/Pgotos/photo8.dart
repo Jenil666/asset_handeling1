@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Photo8 extends StatefulWidget {
   const Photo8({Key? key}) : super(key: key);
@@ -74,7 +75,8 @@ class _Photo8State extends State<Photo8> {
                     ],
                   ),
                   SizedBox(height: 20,),
-                  Text("Our  beautiful  little  corner\nof  Soho  is  packed  with\ncafés,  bulging  with\nrestaurants,  overflowing\nwith  shops,  and  teeming\nwith  creative  people.\nWhy  do  you  think  we\nmoved  here?",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 15),),
+                                                             //TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 15,)
+                  Text("Our  beautiful  little  corner\nof  Soho  is  packed  with\ncafés,  bulging  with\nrestaurants,  overflowing\nwith  shops,  and  teeming\nwith  creative  people.\nWhy  do  you  think  we\nmoved  here?",style: GoogleFonts.lobster(fontSize: 15),),
                   SizedBox(height: 20,),
                   Text("Each  tumbler  is  hand  cast  and\nglazed  with  our  own  unique  glazes\nand  molds.  We  have  designed  these\nwith  clean  simple  lines  to\nemphasize  the  brilliant  colors.",style: TextStyle(color: Colors.black,fontSize: 15),)
                 ],
